@@ -69,10 +69,6 @@ ls -l Dockerfile
   
 - ![alt text](./img/image-7.png)
   
-- Подключите контейнеры к сети:
-  
-- ![alt text](./img/image-8.png)
-  
 - Затем подключите 2 контейнера с именами *"container1"* и *"container2"* для подключения к сети `myNetwork`:
   
 ```
@@ -81,7 +77,7 @@ sudo docker network connect myNetwork container2
 ```
 - Проверьте настройки сети с помощью команды `sudo docker network inspect myNetwork`:
   
-- ![alt text](image.png)
+- ![alt text](./img/image-20.png)
 - ![alt text](./img/image-9.png)
 *«container1» и «container2» успешно подключились к myNetwork.*
 
